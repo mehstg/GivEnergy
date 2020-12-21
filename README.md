@@ -1,2 +1,2 @@
-# GivEnergy
-Python Library for interfacing with the GivEnergy Cloud API
+# GivNRG
+Third party Python library for interfacing with the GivEnergy Cloud API
