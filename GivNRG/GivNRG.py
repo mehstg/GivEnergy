@@ -17,7 +17,7 @@ class GivNRG:
         data = {"account":username, "password":password}
         url = f"{self.baseURL}/login"
         r = self.session.post(url, data=data)
-        return r
+        return r.status_code
 
     # Plant API    
     def getPlantList(self):
